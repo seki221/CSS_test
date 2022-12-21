@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image: url("/sample/img/firstview.jpg") no-repeat bottom;
+  background-image: url("/img/firstview.jpg") no-repeat bottom;
   background-size: color;
   /* 高さを指定 */
   height: 700px;
