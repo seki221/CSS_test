@@ -3,9 +3,9 @@
   margin: 0;
 }
 
-body {
+.bg {
   background-image: url("/img/firstview.jpg") no-repeat bottom;
-  background-size: color;
+  background-size: cover;
   /* 高さを指定 */
   height: 700px;
   }
