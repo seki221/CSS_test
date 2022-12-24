@@ -4,7 +4,7 @@
 }
 
 .bg {
-  background-image: url("/img/firstview.jpg") no-repeat bottom;
+  background: url("../img/firstview.jpg") no-repeat bottom;
   background-size: cover;
   /* 高さを指定 */
   height: 700px;
