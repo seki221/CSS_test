@@ -38,12 +38,12 @@
     margin-left: 20px;
   }
 
-    /* a {
-      text-decoration: none;
-      color: inherit;
-    }
+
+
+
+
   
-    .header {
+    /* .header {
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -54,23 +54,31 @@
       
     }
   
-    .header-ttl {
+    .header-logo {
       font-size: 24px;
       width: 80px;
     }
-    .ul {
+    .header-nav {
       list-style: none;
     }
   
     .header-nav-list {
       display: flex;
       font-weight: bold;
+
+
     }
   
-    .header-nav-item:not(:last-child) {
+    .header-item:not(:last-of-type) {
       margin-right: 30px;
     } */
+
   
+
+
+
+
+
   .relative {
     padding: 0px;
     position: relative;
