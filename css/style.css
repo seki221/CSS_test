@@ -72,39 +72,37 @@
     .header-item:not(:last-of-type) {
       margin-right: 30px;
     } */
-
-  
-
-
-
-
-
-  .relative {
-    padding: 0px;
-    position: relative;
-  }
-  
-  .box1 {
-    margin: 420px 0 10px 0;
-    height: 100px;
-    width: 700px;
-    font-size: 90px;
-    background-color: white;
-  }
-  .box2 {
-    height: 200px;
-    width: 75vw;
-    background: #0000FF;
-  }
-  
-
-  .img{
-    text-align: right;
+    
+    
+  .img {
     padding: 0 0 500px 0;
     position: absolute;
     display: flex;
     width: 50vw;
     height: 61vh;
-    justify-content: flex-end;
-    flex-direction: row-reverse;
   }
+        
+    
+  .absolute_img{
+  justify-content: flex-end;
+  flex-direction:
+    row-reverse;
+  }
+      
+  .title {
+    margin: 420px 0 10px 0;
+    height: 100px;
+    width: 700px;
+    font-size: 90px;
+    }
+  
+  .relative {
+    padding: 0px;
+    position: relative;
+  }
+  .box {
+    height: 200px;
+    width: 75vw;
+    background: #0000FF;
+  }
+  
