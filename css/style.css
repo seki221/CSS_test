@@ -3,31 +3,28 @@
     padding: 0;
   }
 
-  ul {
-    list-style: none;
-  }
 
   .header_flex {
     display: flex;
     padding: 50px;
-    background-color: #ffffff;
+    background-color: #fff;
     height: 30px;
     justify-content: space-between;
     align-items: center;
   }
 
-  .header_logo {
+  .text {
     font-weight: bold;
-      font-size: 30px;
-  }
-
-  .text{
+    font-size: 30px;
     color: #00277E;
   }
 
-
   .header_nav {
     margin-left: auto;
+  }
+
+  ul {
+    list-style: none;
   }
 
   .header_ul {
@@ -39,70 +36,50 @@
   }
 
 
-
-
-
-  
-    /* .header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      height: 70px;
-      padding: 0 30px;
-      background-color: #ffffff;
-      color: #00277E;
-      
-    }
-  
-    .header-logo {
-      font-size: 24px;
-      width: 80px;
-    }
-    .header-nav {
-      list-style: none;
-    }
-  
-    .header-nav-list {
-      display: flex;
-      font-weight: bold;
-
-
-    }
-  
-    .header-item:not(:last-of-type) {
-      margin-right: 30px;
-    } */
-    
-    
-  .img {
-    padding: 0 0 500px 0;
-    position: absolute;
-    display: flex;
-    width: 50vw;
-    height: 61vh;
+  * {
+    margin: 0;
+    padding: 0;
   }
-        
-    
-  .absolute_img{
-  justify-content: flex-end;
-  flex-direction:
-    row-reverse;
+
+  .main {
+    margin-bottom:  30px;
   }
-      
-  .title {
-    margin: 420px 0 10px 0;
-    height: 100px;
-    width: 700px;
-    font-size: 90px;
-    }
   
-  .relative {
+  .absolute {
+    /* margin-top: 2px; */
     padding: 0px;
+    height: 100%;
+  }
+
+
+  .imgbox {
+    position: relative;
+    display: block;
+    width: 50%;
+    height: 100%;
+    left: 50%;
+    top: 17vw;
+    /* margin: 0 0 0 50%; */
+    z-index: 2;
+
+  }
+
+  .img {
+    height: 50%;
+    width: 100%;
+  }
+
+  .title {
+    font-size: 6vw;
+    /* top: 100%; */
+    bottom: -10px;
     position: relative;
   }
+
   .box {
+    position: relative;
     height: 200px;
-    width: 75vw;
+    margin-bottom:10px;
+    width: 75%;
     background: #0000FF;
   }
-  
